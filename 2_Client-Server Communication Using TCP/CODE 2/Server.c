@@ -1,4 +1,5 @@
-// This code creates a socket, binds it to a local address, listens for incoming connections, accepts incoming connections. // And communicates with the client by echoing messages back to it. 
+// This code creates a socket, binds it to a local address, listens for incoming connections, accepts incoming connections. 
+// And communicates with the client by echoing messages back to it. 
 // When the client disconnects, the server closes the connection and terminates.
 
 #include <stdio.h>
