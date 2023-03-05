@@ -1,6 +1,8 @@
 //The client program first creates a socket and sets the IP address and port number of the server it wants to connect to. 
 //It then connects to the server using the connect() function. 
-//Once the connection is established, the client enters a loop where it repeatedly prompts the user to enter a message, sends the message to the server using the send() function, receives a reply from the server using the recv() function, and prints the reply to the console. 
+//Once the connection is established, the client enters a loop where it repeatedly prompts the user to enter a message, 
+  sends the message to the server using the send() function, receives a reply from the server using the recv() function, 
+  and prints the reply to the console. 
 //The loop continues until the user types "exit", at which point the program closes the socket and terminates.
 
 #include <stdio.h>
